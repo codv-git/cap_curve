@@ -62,5 +62,5 @@ def capcurve(y_values, y_preds_proba):
     plt.xlabel('% of the data')
     plt.ylabel('% of positive obs')
     plt.legend()
-#    plt.show()
-    plt.savefig('cap_graph.png')
+    plt.show()
+#    plt.savefig('cap_graph.png')
