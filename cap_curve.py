@@ -21,7 +21,7 @@ def capcurve(y_values, y_preds_proba):
                                                 level=y_cap_df_s.index.names,
                                                 drop=True)
 
-    print(y_cap_df_s.head(20))
+#    print(y_cap_df_s.head(20))
 
     yy = np.cumsum(y_cap_df_s[0]) / float(num_pos_obs)
     yy = np.append([0], yy[0: num_count-1])
